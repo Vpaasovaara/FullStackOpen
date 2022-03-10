@@ -1,0 +1,17 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "GraphQL excercise",
+  "main": "library-backend.js",
+  "scripts": {
+    "dev": "nodemon library-backend.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ville Paasovaara",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.3",
+    "graphql": "^16.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
